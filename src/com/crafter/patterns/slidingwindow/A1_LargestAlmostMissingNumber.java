@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class LargestAlmostMissingNumber {
+public class A1_LargestAlmostMissingNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
