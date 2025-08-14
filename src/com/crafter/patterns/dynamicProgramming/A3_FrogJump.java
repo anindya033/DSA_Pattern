@@ -10,7 +10,7 @@ import java.util.Arrays;
 	 We need to return the minimum energy that can be used by the frog to jump from stair 0 to stair N-1.
  */
 
-public class FrogJump {
+public class A3_FrogJump {
 
 	public static void main(String[] args) {
 		int height[] = { 30, 10, 60, 10, 60, 50 };
@@ -57,7 +57,6 @@ public class FrogJump {
 			return 0;
 		if (n == 1)
 			return Math.abs(height[n] - height[n - 1]);
-		int curr = height[n];
 		int left = frogJump(n - 1, height) + Math.abs(height[n] - height[n - 1]);
 		int right = Integer.MAX_VALUE;
 		if (n > 1)

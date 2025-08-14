@@ -1,6 +1,6 @@
 package com.crafter.patterns.dynamicProgramming;
 
-public class ClimbingStairs {
+public class A2_ClimbingStairs {
 	
 	/**
 	 	Problems :--------

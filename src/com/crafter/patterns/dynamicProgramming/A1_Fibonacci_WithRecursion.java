@@ -8,7 +8,7 @@ import java.util.Arrays;
  * 2. Recursion with memoization
  * 3. Bottom-up tabulation
  */
-public class Fibonacci_WithRecursion {
+public class A1_Fibonacci_WithRecursion {
 
     public static void main(String[] args) {
         int n = 4;
@@ -28,7 +28,7 @@ public class Fibonacci_WithRecursion {
      * Calculates nth Fibonacci number using pure recursion
      *
      * Time Complexity: O(2^n)
-     * Space Complexity: O(n) — due to call stack
+     * Space Complexity: O(n) ï¿½ due to call stack
      */
     public static int fibonacci_Recursive(int n) {
         if (n == 0) return 0;
@@ -40,7 +40,7 @@ public class Fibonacci_WithRecursion {
      * Calculates nth Fibonacci number using memoization (top-down DP)
      *
      * Time Complexity: O(n)
-     * Space Complexity: O(n) — due to recursion stack and DP array
+     * Space Complexity: O(n) ï¿½ due to recursion stack and DP array
      */
     public static int fibonacci_Memoization(int n, int[] dp) {
         if (n == 0) return 0;

@@ -9,14 +9,14 @@ import java.util.Arrays;
 	 where abs() means the absolute difference.
 	 We need to return the minimum energy that can be used by the frog to jump from stair 0 to stair N-1.
  
- 	This is a follow-up question to “Frog Jump” discussed in the previous article.
+ 	This is a follow-up question to ï¿½Frog Jumpï¿½ discussed in the previous article.
  	In the previous question, the frog was allowed to jump either one or two steps at a time.
- 	In this question, the frog is allowed to jump up to ‘K’ steps at a time.
+ 	In this question, the frog is allowed to jump up to ï¿½Kï¿½ steps at a time.
  	If K=4, the frog can jump 1,2,3, or 4 steps at every index.
  
  */
 
-public class FrogJump2 {
+public class A4_FrogJump2 {
 
 	public static void main(String[] args) {
 		int height[] = { 15, 4, 1, 14, 15, 60 };
