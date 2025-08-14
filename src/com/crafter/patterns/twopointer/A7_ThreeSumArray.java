@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ThreeSumArray {
+public class A7_ThreeSumArray {
 	// Medium
 	/**
 	 * [LeetCode #15] Given an integer array nums, return all the triplets [nums[i],

@@ -9,7 +9,7 @@ import java.util.Arrays;
  		Input: s = ["h","e","l","l","o"]
 		Output: ["o","l","l","e","h"]
  */
-public class ReverseString {
+public class A11_ReverseString {
 	
 	public static void main(String [] args) {
 		

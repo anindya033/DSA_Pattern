@@ -6,7 +6,7 @@ package com.crafter.patterns.twopointer;
 		Output: true
 		Explanation: "amanaplanacanalpanama" is a palindrome.
  */
-public class ValidPalindrom {
+public class A10_ValidPalindrom {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

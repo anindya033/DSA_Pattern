@@ -9,7 +9,7 @@ import java.util.Arrays;
  	 1 ,0 ,2 ,3 ,0 ,4 ,0 ,1
  	 
  	 Logic :
- 	 	First, using a loop, we will place the pointer j. If we don’t find any 0,
+ 	 	First, using a loop, we will place the pointer j. If we donï¿½t find any 0,
  	 	we will not perform the following steps.
 		After that, we will point i to index j+1 and start moving the pointer using a loop.
 		While moving the pointer i, we will do the following:
@@ -18,7 +18,7 @@ import java.util.Arrays;
 		  So, we will shift the pointer j by 1 so that it can again point to the first zero.
 		Finally, our array will be set in the right manner.
  */
-public class MoveZerosToEnd {
+public class A3_MoveZerosToEnd {
 	
 	public static void main(String [] args) {
 		int [] arr = new int[] {1 ,0 ,2 ,3 ,0 ,4 ,0 ,1};

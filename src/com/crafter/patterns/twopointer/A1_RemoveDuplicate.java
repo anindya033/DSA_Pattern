@@ -7,17 +7,17 @@ import java.util.Arrays;
  Easy -- 
  Logic - Unidirectional
  	-	1.	Use two pointers:
-•	i — Points to the position where the next unique element should go
-•	j — Traverses the array to find unique elements
+ï¿½	i ï¿½ Points to the position where the next unique element should go
+ï¿½	j ï¿½ Traverses the array to find unique elements
 2.	check
 a.	 if arr[i] == arr[j]
 i.	J++
 b.	Else
 i.	i++
-ii.	arr[i] = arr[j] ; it will replace the duplicate element with unique element. Because its unique that’s why it is not matched with the prev value.
+ii.	arr[i] = arr[j] ; it will replace the duplicate element with unique element. Because its unique thatï¿½s why it is not matched with the prev value.
 
  */
-public class RemoveDuplicate {
+public class A1_RemoveDuplicate {
 	public static void main(String[] args) {
 
 		int[] arr = new int[] { 1, 2, 3, 3, 4 }; // Expected : 4

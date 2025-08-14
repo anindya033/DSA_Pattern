@@ -10,7 +10,7 @@ package com.crafter.patterns.twopointer;
 	If sum < target > Move the left pointer to increase the sum.
 	If sum > target > Move the right pointer to decrease the sum.
  */
-public class TwoSumArray {
+public class A2_TwoSumArray {
 	
 	public static void main(String [] args) {
 		

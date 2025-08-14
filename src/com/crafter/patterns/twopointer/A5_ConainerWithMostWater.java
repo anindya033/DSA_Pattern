@@ -5,17 +5,17 @@ package com.crafter.patterns.twopointer;
 	Expected Output: 40
 	
 	Logic
-	Use two pointer approach. We need to get the max possible “Area” from the rectangle that would form.
-	•	Left = start; right = end of array
-	•	Keep “maxArea” = 0
-	•	Calculate area of current position:
+	Use two pointer approach. We need to get the max possible ï¿½Areaï¿½ from the rectangle that would form.
+	ï¿½	Left = start; right = end of array
+	ï¿½	Keep ï¿½maxAreaï¿½ = 0
+	ï¿½	Calculate area of current position:
 		o	Area = Math.min(arr[left], arr[right]) * (right-left)
 		o	Keep MaxArea
 		o	Move left 1 point if left is smaller, else move right pointer (because moving smaller is required to get the max area
 
 
  */
-public class ConainerWithMostWater {
+public class A5_ConainerWithMostWater {
 	
 	public static void main(String [] args) {
 		int [] height = {3, 9, 4, 7, 2, 8, 5, 10};

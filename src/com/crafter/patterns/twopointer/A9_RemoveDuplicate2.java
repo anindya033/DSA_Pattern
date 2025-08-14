@@ -12,7 +12,7 @@ import java.util.Arrays;
  	Input : [1,1,1,2,2,3]
  	Output: 5, nums = [1,1,2,2,3,_]
  */
-public class RemoveDuplicate2 {
+public class A9_RemoveDuplicate2 {
 	public static void main(String[] args) {
 
 		int[] arr = new int[] { 1,1,2,2,2,3}; // Expected : 4
