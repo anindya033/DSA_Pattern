@@ -16,9 +16,9 @@ public class ValidAnagram {
                 So ultimately it will make each other out
 
             While reducing counts using the second string:
-                If a character count goes below zero, it means:
+                -   If a character count goes below zero, it means:
                 -   The character appears more times in the second string than in the first.
-                -   Or the character never existed in the first string at all.
+                    -   Or the character never existed in the first string at all.
          */
 
         if(sActual.length() != sAnagram.length()){
