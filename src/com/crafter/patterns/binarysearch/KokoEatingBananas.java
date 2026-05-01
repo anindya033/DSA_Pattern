@@ -78,3 +78,55 @@ public class KokoEatingBananas {
     }
 
 }
+
+/*
+💡 HOW TO THINK (Very Important)
+
+This is NOT a normal binary search on array.
+
+👉 We are NOT searching inside the piles array.
+👉 We are searching for the ANSWER (k = eating speed).
+
+--------------------------------------
+
+🧠 Step 1: Understand the goal
+We need to find the MINIMUM speed (k) so that Koko can finish all bananas within h hours.
+
+--------------------------------------
+
+🧠 Step 2: Define search range
+- Minimum speed = 1 (she must eat at least 1 banana/hour)
+- Maximum speed = max pile (finish biggest pile in 1 hour)
+
+So our search space is: [1 → max]
+
+--------------------------------------
+
+🧠 Step 3: Try a middle value (Binary Search)
+Pick a speed (mid) and check:
+👉 "Can Koko finish all bananas with this speed?"
+
+--------------------------------------
+
+🧠 Step 4: Feasibility check (canFinish)
+- Calculate total hours needed if Koko eats at this speed
+- If hours <= h → this speed works ✅
+- If hours > h → too slow ❌
+
+--------------------------------------
+
+🧠 Step 5: Move search space
+- If it works → try smaller speed (to find minimum)
+- If not → try bigger speed
+
+--------------------------------------
+
+🧠 Step 6: Final Answer
+When search ends, left will point to the minimum valid speed.
+
+--------------------------------------
+
+🔥 Key Idea:
+If a speed works, all bigger speeds will also work.
+This is why Binary Search is possible (MONOTONIC behavior).
+*/
