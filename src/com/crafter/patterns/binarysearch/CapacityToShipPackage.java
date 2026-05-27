@@ -26,7 +26,7 @@ public class CapacityToShipPackage {
         }
         int mid = (maxCapacity + minCapacity)/2;
 
-        boolean result = checkIfValidCapacity(weights, targetDays, mid);
+        boolean result =  checkIfValidCapacity (weights, targetDays, mid);
 
         if(result){
             return getCapacityToShip(weights, minCapacity, mid-1, targetDays);
