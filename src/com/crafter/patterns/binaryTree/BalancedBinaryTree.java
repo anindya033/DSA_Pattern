@@ -1,6 +1,6 @@
 package com.crafter.patterns.binaryTree;
 
-public class BalamcedBinaryTree {
+public class BalancedBinaryTree {
 
     //Ba
     public static void main(String [] args){
