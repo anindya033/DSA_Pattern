@@ -1,7 +1,7 @@
 package com.crafter.patterns.binaryTree;
 
 public class TreeNode{
-    int val;
+    Integer val;
     TreeNode right;
     TreeNode left;
     public TreeNode(int val){
