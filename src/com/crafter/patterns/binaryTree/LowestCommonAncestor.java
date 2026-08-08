@@ -61,12 +61,13 @@ public class LowestCommonAncestor {
     public static void main(String[] args) {
 
         /*
-         * 3
-         * / \
-         * 5 1
-         * / \ / \
-         * 6 2 0 8
-         * / \
+         *        3
+         *      /   \
+         *      5   1
+         *     / \ / \
+         *     6 2 0 8
+         *      / \
+         *      
          * 7 4
          */
 
